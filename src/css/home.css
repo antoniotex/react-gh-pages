@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: url(../images/bg-3.jpeg);
+	background-attachment: fixed;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	height: 100%;
+}
+html{
+	height: 100%;
+}
+#inicio{
+	display: grid;
+	height: 100%;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	justify-items: center;
+	align-items:center;
+}
+.item-inicio{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+}
+.name{
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	padding: 0 10% 0 10%;
+	font-size: 300%;
+	text-align: center;
+	border: 3px solid #fff;
+	border-radius: 20px;
+	transition: 0.5s;
+	white-space: nowrap;
+}
+.name:hover{
+	background: rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 0px 10px #fff;
+}
+hr{
+	width: 90%;
+	color: rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-align: center;
+	box-shadow: 0 0 2px #000;
+}
